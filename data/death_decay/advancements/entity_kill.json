@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "#death_decay:hostile"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "death_decay:on_entity_kill"
+    }
+  }
+  
