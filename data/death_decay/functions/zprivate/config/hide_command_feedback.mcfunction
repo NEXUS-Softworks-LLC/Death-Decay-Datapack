@@ -1,0 +1,2 @@
+gamerule sendCommandFeedback false
+schedule function death_decay:zprivate/config/restore_command_feedback 1t replace

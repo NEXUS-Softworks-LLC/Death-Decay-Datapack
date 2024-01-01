@@ -1,0 +1,1 @@
+execute unless data storage dd:data {PackVersion:"0.1"} run function death_decay:load_first_time
