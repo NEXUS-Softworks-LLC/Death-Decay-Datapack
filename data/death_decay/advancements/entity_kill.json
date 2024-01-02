@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "death_decay:on_entity_kill"
+      "function": "death_decay:zprivate/on_entity_kill"
     }
   }
   
